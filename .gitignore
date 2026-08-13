@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
-venv/
+.venv/
 env/
 ENV/
 
@@ -25,3 +25,12 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Paquetes de distribución / compilación
+build/
+dist/
+*.egg-info/
+
+# Archivos temporales de empaquetado
+files.zip
+output/
